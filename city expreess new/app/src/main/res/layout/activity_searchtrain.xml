@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradiant"
+    android:id="@+id/back"
+    android:focusableInTouchMode="true"
+    tools:context="cityxpress.cbt.com.cityxpress.activitys.activity.SearchTrain">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginTop="20dp"
+            android:background="#80ffffff"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:weightSum="4">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/searchtrain_from"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:text="From :-"
+                        android:textColor="#000000"
+                        android:textSize="17dp" />
+
+                    <TextView
+                        android:id="@+id/searchtrain_from"
+                        android:layout_width="0dp"
+                        android:inputType="textCapSentences"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/textView8"
+                        android:layout_weight="3"
+
+                        android:hint="Choose Source"
+                        android:paddingLeft="15dp"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="17dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:weightSum="4">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/searchtrain_to"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:text="To :-"
+                        android:textColor="#000000"
+                        android:textSize="17dp" />
+
+
+                    <TextView
+                        android:id="@+id/searchtrain_to"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/textView9"
+                        android:layout_weight="3"
+                        android:hint="Choose Destination"
+                        android:paddingLeft="15dp"
+
+                        android:inputType="textCapSentences"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textSize="17dp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    ></LinearLayout>
+                <Button
+                    android:id="@+id/searchtrain_next"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_background"
+                    android:gravity="center"
+                    android:minHeight="0dp"
+                    android:minWidth="0dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="50dp"
+                    android:paddingTop="10dp"
+                    android:text="Find Trains"
+                    android:textColor="@color/button_text_color" />
+
+                <Button
+                    android:id="@+id/searchtrain_findtrainbytrainno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_background"
+                    android:gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:minHeight="0dp"
+                    android:minWidth="0dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="50dp"
+                    android:paddingTop="10dp"
+                    android:text="Find Trains By Train No"
+                    android:textColor="@color/button_text_color" />
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#40ffffff"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Favorite Route" />
+
+            <ListView
+                android:id="@+id/searchtrain_history_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"></ListView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

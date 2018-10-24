@@ -1,0 +1,449 @@
+<resources>
+    <string name="app_name">Cityxpress</string>
+    <string name="singup"><u> Sing Up Now </u></string>
+    <string name="singin"><u> Sing In Now </u></string>
+    <string name="title1">Select Category</string>
+    <string name="title_activity_train_maps">Map</string>AIzaSyCCj7yqZvPHstwD_VcrNAPdJ3UBhQNnL_M
+    <string name="map_api">AIzaSyDYriL2KU8aQ5XYwAEd-cQyiikZYO7i4ek</string>
+    <string-array name="centralline">
+        <item>CSTM(CSTM)</item>
+        <item>Masjid()</item>
+        <item>Sandhurst Road(SNRD)</item>
+        <item>Byculla(BY)</item>
+        <item>Chinchpokli(CHG)</item>
+        <item>Currey Road(CRD)</item>
+        <item> Lower Parel(PR)</item>
+        <item>Dadar(DR)</item>
+        <item>Matunga(MTN)</item>
+        <item>Sion(SIN)</item>
+        <item>Kurla(CLA)</item>
+        <item>Vidyavihar(VVH)</item>
+        <item>Ghatkopar(GC)</item>
+        <item>Vikhroli(VK)</item>
+        <item>Kanjur Marg(KJMG)</item>
+        <item>Bhandup(BND)</item>
+        <item>Nahur(NHU)</item>
+        <item>Mulund(MLND)</item>
+        <item>Thane(TNA)</item>
+        <item>Kalva(KLVA)</item>
+        <item>Mumbra(MBQ)</item>
+        <item>Diva(DIVA)</item>
+        <item>Kopar Road(KOPR)</item>
+        <item>Dombivli(DI)</item>
+        <item>Thakurli(THK)</item>
+        <item>Kalyan(KYN)</item>
+        <item>Vithalwadi(VLDI)</item>
+        <item>Ulhasnagar(ULNR)</item>
+        <item>Ambarnath(ABH)</item>
+        <item>Badlapur(BUD)</item>
+        <item>Vangani(VGI)</item>
+        <item>Shelu(SHLU)</item>
+        <item>Neral(NRL)</item>
+        <item>Bhivpuri Road(BVS)</item>
+        <item>Karjat(KJT)</item>
+        <item>Palasdari(PDI)</item>
+        <item>Kelavli(KLY)</item>
+        <item>Dolavli(DLV)</item>
+        <item>Lowjee(LWJ)</item>
+        <item>Khopoli(KHPI)</item>
+        <item>Shahad(SHAD)</item>
+        <item>Ambivli(ABY)</item>
+        <item>Titvala(TLA)</item>
+        <item>Khadavli(KDV)</item>
+        <item>Vasind(VSD)</item>
+        <item>Asangaon(ASO)</item>
+        <item>Atgaon(ATG)</item>
+        <item>Thansit(THS)</item>
+        <item> Khardi(KE)</item>
+        <item>Oombermali(OMB)</item>
+        <item>Kasara(KSRA)</item>
+    </string-array>
+    <string-array name="westernline">
+        <item>Churchgate(CCG)</item>
+        <item>Marine Lines(MEL)</item>
+        <item>Charni Road(CYR)</item>
+        <item>Grant Road(GTR)</item>
+        <item>Mumbai Central(BCL)</item>
+        <item>Mahalaxmi(MX)</item>
+        <item>Lower Parel(PL)</item>
+        <item>Elphinstone Road(EPR)</item>
+        <item>Dadar(DDR)</item>
+        <item>Matunga Road(MRU)</item>
+        <item>Mahim Junction(MM)</item>
+        <item>Bandra(BA)</item>
+        <item>Khar Road(KHAR)</item>
+        <item>Santacruz(STC)</item>
+        <item>Vile Parle(VLP)</item>
+        <item>Andheri(ADH)</item>
+        <item>Jogeshwari(JOS)</item>
+        <item>Ram Mandir(RMAR)</item>
+        <item>Goregaon(GMN)</item>
+        <item>Malad(MDD)</item>
+        <item>Kandivali(KILE)</item>
+        <item>Borivali(BVI)</item>
+        <item>Dahisar(DIC)</item>
+        <item>Mira Road(MIRA)</item>
+        <item>Bhayandar(BYR)</item>
+        <item>Naigaon(NIG)</item>
+        <item>Vasai Road(BSR)</item>
+        <item>Nallasopara(NSP)</item>
+        <item>Virar(VR)</item>
+        <item>Vaitarna(VTN)</item>
+        <item>Saphale(SAH)</item>
+        <item>Kelve Road(KLV)</item>
+        <item>Palghar(PLG)</item>
+        <item>Umroli(UOI)</item>
+        <item>Boisar(BOR)</item>
+        <item>Vangaon(VGN)</item>
+        <item>Dahanu Road(DRD)</item>
+    </string-array>
+
+    <string-array name="harbourline">
+        <item>CSTM(CSTM)</item>
+        <item>Masjid()</item>
+        <item>Sandhurst Road(SNRD)</item>
+        <item>Dockyard Road(DKRD)</item>
+        <item>REAY ROAD(RRD) </item>
+        <item>Cotton Green(CTGN)</item>
+        <item>Sewri(SVE)</item>
+        <item>Vadala Road(VDLR) </item>
+        <item>Kings Circle(KCE)</item>
+        <item>Mahim Junction(MM)</item>
+        <item>Bandra(BA)</item>
+        <item>Khar Road(KHAR)</item>
+        <item>Santacruz(STC)</item>
+        <item>Vile Parle(VLP)</item>
+        <item>Andheri(ADH)</item>
+        <item>Jogeshwari(JOS)</item>
+        <item>Ram Mandir(RMAR)</item>
+        <item>Goregaon(GMN)</item>
+        <item>Malad(MDD)</item>
+        <item>Kandivali(KILE)</item>
+        <item>Borivali(BVI)</item>
+        <item>GTB Nagar(GTBN)</item>
+        <item>Chunabhatti(CHF)</item>
+        <item>Kurla(CLA)</item>
+        <item>Tilaknagar(TKNG)</item>
+        <item>Chembur(CMBR)</item>
+        <item>Govandi(GV)</item>
+        <item>Mankhurd(MNKD)</item>
+        <item>Vashi(VSH)</item>
+        <item>Sanpada(SNCR) </item>
+        <item>Juinagar(JNJ)</item>
+        <item>Neral(NRL)</item>
+        <item>Seawoods Darave(SWDV) </item>
+        <item>Belapur CBD(BEPR)</item>
+        <item>Kharghar(KHAG)()</item>
+        <item>Mansarovar(MANR)</item>
+        <item>Khandeshwar(KNDS)</item>
+        <item>Panvel(PNVL)</item>
+
+
+    </string-array>
+
+    <string-array name="trainsline">
+        <item>Thane(TNA)</item>
+        <item>Airoli(AIRL)</item>
+        <item>Rabale(RABE)</item>
+        <item>Ghansoli(GNSL) </item>
+        <item>Kopar Khairane(KPHN)</item>
+        <item> Turbhe(TUH)</item>
+        <item>Sanpada(SNCR)</item>
+        <item>Vashi(VSH)</item>
+        <item>Juinagar(JNJ)</item>
+        <item>Neral(NRL)</item>
+        <item>Seawoods Darave(SWDV) </item>
+        <item>Belapur CBD(BEPR)</item>
+        <item>Kharghar(KHAG)()</item>
+        <item>Mansarovar(MANR)</item>
+        <item>Khandeshwar(KNDS)</item>
+        <item>Panvel(PNVL)</item>
+    </string-array>
+
+    <string-array name="fifthline">
+        <item>Vasai Road(BSR)</item>
+        <item>Juchandra(JCNR)</item>
+        <item>Kaman Road(KARD)</item>
+        <item>Kharbao(KHBV)</item>
+        <item>Bhiwandi Road(BIRD)</item>
+        <item>Kopar(KOPR)</item>
+        <item>Diva Junction(DIVA)</item>
+        <item>Dativali(DTVL)</item>
+        <item>Nilaje(NIIJ)</item>
+        <item>Taloja(TPND)</item>
+        <item>Navade Road(NVRD)</item>
+        <item>Kalamboli(KLMC)</item>
+        <item>Panvel(PNVL)</item>
+        <item>Somtane(SMNE)</item>
+        <item>Rasayani(RSYI)</item>
+        <item>Apta(APTA)</item>
+        <item>Jite(JITE)</item>
+        <item>Hamrapur(HMRR)</item>
+        <item>Pen(PEN)</item>
+        <item>Kasu(KASU)</item>
+        <item>Nagothane(NGTN)</item>
+        <item>Nidi(NIDI)</item>
+        <item>Roha(ROHA)</item>
+    </string-array>
+
+
+    <string-array name="westernstation">
+        <item>Churchgate(CCG)</item>
+        <item>Marine Lines(MEL)</item>
+        <item>Charni Road(CYR)</item>
+        <item>Grant Road(GTR)</item>
+        <item>Mumbai Central(BCL)</item>
+        <item>Mahalaxmi(MX)</item>
+        <item>Lower Parel(PL)</item>
+        <item>Elphinstone Road(EPR)</item>
+        <item>Dadar(DDR)</item>
+        <item>Matunga Road(MRU)</item>
+        <item>Mahim Junction(MM)</item>
+        <item>Bandra(BA)</item>
+        <item>Khar Road(KHAR)</item>
+        <item>Santacruz(STC)</item>
+        <item>Vile Parle(VLP)</item>
+        <item>Andheri(ADH)</item>
+        <item>Jogeshwari(JOS)</item>
+        <item>Ram Mandir(RMAR)</item>
+        <item>Goregaon(GMN)</item>
+        <item>Malad(MDD)</item>
+        <item>Kandivali(KILE)</item>
+        <item>Borivali(BVI)</item>
+        <item>Dahisar(DIC)</item>
+        <item>Mira Road(MIRA)</item>
+        <item>Bhayandar(BYR)</item>
+        <item>Naigaon(NIG)</item>
+        <item>Vasai Road(BSR)</item>
+        <item>Nallasopara(NSP)</item>
+        <item>Virar(VR)</item>
+        <item>Vaitarna(VTN)</item>
+        <item>Saphale(SAH)</item>
+        <item>Kelve Road(KLV)</item>
+        <item>Palghar(PLG)</item>
+        <item>Umroli(UOI)</item>
+        <item>Boisar(BOR)</item>
+        <item>Vangaon(VGN)</item>
+        <item>Dahanu Road(DRD)</item>
+
+
+    </string-array>
+
+    <string-array name="centralstation1">
+        <item>CSTM(CSTM)</item>
+        <item>Masjid()</item>
+        <item>Sandhurst Road(SNRD)</item>
+        <item>Byculla(BY)</item>
+        <item>Chinchpokli(CHG)</item>
+        <item>Currey Road(CRD)</item>
+        <item> Lower Parel(PR)</item>
+        <item>Dadar(DR)</item>
+        <item>Matunga(MTN)</item>
+        <item>Sion(SIN)</item>
+        <item>Kurla(CLA)</item>
+        <item>Vidyavihar(VVH)</item>
+        <item>Ghatkopar(GC)</item>
+        <item>Vikhroli(VK)</item>
+        <item>Kanjur Marg(KJMG)</item>
+        <item>Bhandup(BND)</item>
+        <item>Nahur(NHU)</item>
+        <item>Mulund(MLND)</item>
+        <item>Thane(TNA)</item>
+        <item>Kalva(KLVA)</item>
+        <item>Mumbra(MBQ)</item>
+        <item>Diva(DIVA)</item>
+        <item>Kopar Road(KOPR)</item>
+        <item>Dombivli(DI)</item>
+        <item>Thakurli(THK)</item>
+        <item>Kalyan(KYN)</item>
+        <item>Shahad(SHAD)</item>
+        <item>Ambivli(ABY)</item>
+        <item>Titvala(TLA)</item>
+        <item>Khadavli(KDV)</item>
+        <item>Vasind(VSD)</item>
+        <item>Asangaon(ASO)</item>
+        <item>Atgaon(ATG)</item>
+        <item>Thansit(THS)</item>
+        <item> Khardi(KE)</item>
+        <item>Oombermali(OMB)</item>
+        <item>Kasara(KSRA)</item>
+    </string-array>
+
+    <string-array name="centralstation2">
+        <item>CSTM(CSTM)</item>
+        <item>Masjid()</item>
+        <item>Sandhurst Road(SNRD)</item>
+        <item>Byculla(BY)</item>
+        <item>Chinchpokli(CHG)</item>
+        <item>Currey Road(CRD)</item>
+        <item> Lower Parel(PR)</item>
+        <item>Dadar(DR)</item>
+        <item>Matunga(MTN)</item>
+        <item>Sion(SIN)</item>
+        <item>Kurla(CLA)</item>
+        <item>Vidyavihar(VVH)</item>
+        <item>Ghatkopar(GC)</item>
+        <item>Vikhroli(VK)</item>
+        <item>Kanjur Marg(KJMG)</item>
+        <item>Bhandup(BND)</item>
+        <item>Nahur(NHU)</item>
+        <item>Mulund(MLND)</item>
+        <item>Thane(TNA)</item>
+        <item>Kalva(KLVA)</item>
+        <item>Mumbra(MBQ)</item>
+        <item>Diva(DIVA)</item>
+        <item>Kopar Road(KOPR)</item>
+        <item>Dombivli(DI)</item>
+        <item>Thakurli(THK)</item>
+        <item>Kalyan(KYN)</item>
+        <item>Vithalwadi(VLDI)</item>
+        <item>Ulhasnagar(ULNR)</item>
+        <item>Ambarnath(ABH)</item>
+        <item>Badlapur(BUD)</item>
+        <item>Vangani(VGI)</item>
+        <item>Shelu(SHLU)</item>
+        <item>Neral(NRL)</item>
+        <item>Bhivpuri Road(BVS)</item>
+        <item>Karjat(KJT)</item>
+        <item>Palasdari(PDI)</item>
+        <item>Kelavli(KLY)</item>
+        <item>Dolavli(DLV)</item>
+        <item>Lowjee(LWJ)</item>
+        <item>Khopoli(KHPI)</item>
+    </string-array>
+
+    <string-array name="harbourstation1">
+        <item>CSTM(CSTM)</item>
+        <item>Masjid()</item>
+        <item>Sandhurst Road(SNRD)</item>
+        <item>Dockyard Road(DKRD)</item>
+        <item>REAY ROAD(RRD) </item>
+        <item>Cotton Green(CTGN)</item>
+        <item>Sewri(SVE)</item>
+        <item>Vadala Road(VDLR) </item>
+        <item>Kings Circle(KCE)</item>
+        <item>Mahim Junction(MM)</item>
+        <item>Bandra(BA)</item>
+        <item>Khar Road(KHAR)</item>
+        <item>Santacruz(STC)</item>
+        <item>Vile Parle(VLP)</item>
+        <item>Andheri(ADH)</item>
+        <item>Jogeshwari(JOS)</item>
+        <item>Ram Mandir(RMAR)</item>
+        <item>Goregaon(GMN)</item>
+        <item>Malad(MDD)</item>
+        <item>Kandivali(KILE)</item>
+        <item>Borivali(BVI)</item>
+    </string-array>
+
+    <string-array name="harbourstation2">
+        <item>CSTM(CSTM)</item>
+        <item>Masjid()</item>
+        <item>Sandhurst Road(SNRD)</item>
+        <item>Dockyard Road(DKRD)</item>
+        <item>REAY ROAD(RRD) </item>
+        <item>Cotton Green(CTGN)</item>
+        <item>Sewri(SVE)</item>
+        <item>Vadala Road(VDLR) </item>
+        <item>GTB Nagar(GTBN)</item>
+        <item>Chunabhatti(CHF)</item>
+        <item>Kurla(CLA)</item>
+        <item>Tilaknagar(TKNG)</item>
+        <item>Chembur(CMBR)</item>
+        <item>Govandi(GV)</item>
+        <item>Mankhurd(MNKD)</item>
+        <item>Vashi(VSH)</item>
+        <item>Sanpada(SNCR) </item>
+        <item>Juinagar(JNJ)</item>
+        <item>Neral(NRL)</item>
+        <item>Seawoods Darave(SWDV) </item>
+        <item>Belapur CBD(BEPR)</item>
+        <item>Kharghar(KHAG)()</item>
+        <item>Mansarovar(MANR)</item>
+        <item>Khandeshwar(KNDS)</item>
+        <item>Panvel(PNVL)</item>
+    </string-array>
+
+
+    <string-array name="harbourstation3">
+        <item>Borivali(BVI)</item>
+        <item>Kandivali(KILE)</item>
+        <item>Malad(MDD)</item>
+        <item>Goregaon(GMN)</item>
+        <item>Ram Mandir(RMAR)</item>
+        <item>Jogeshwari(JOS)</item>
+        <item>Andheri(ADH)</item>
+        <item>Vile Parle(VLP)</item>
+        <item>Santacruz(STC)</item>
+        <item>Khar Road(KHAR)</item>
+        <item>Bandra(BA)</item>
+        <item>Mahim Junction(MM)</item>
+        <item>Kings Circle(KCE)</item>
+        <item>Vadala Road(VDLR) </item>
+        <item>GTB Nagar(GTBN)</item>
+        <item>Chunabhatti(CHF)</item>
+        <item>Kurla(CLA)</item>
+        <item>Tilaknagar(TKNG)</item>
+        <item>Chembur(CMBR)</item>
+        <item>Govandi(GV)</item>
+        <item>Mankhurd(MNKD)</item>
+        <item>Vashi(VSH)</item>
+        <item>Sanpada(SNCR) </item>
+        <item>Juinagar(JNJ)</item>
+        <item>Neral(NRL)</item>
+        <item>Seawoods Darave(SWDV) </item>
+        <item>Belapur CBD(BEPR)</item>
+        <item>Kharghar(KHAG)()</item>
+        <item>Mansarovar(MANR)</item>
+        <item>Khandeshwar(KNDS)</item>
+        <item>Panvel(PNVL)</item>
+    </string-array>
+
+
+    <string-array name="trainsstation">
+        <item>Thane(TNA)</item>
+        <item>Airoli(AIRL)</item>
+        <item>Rabale(RABE)</item>
+        <item>Ghansoli(GNSL) </item>
+        <item>Kopar Khairane(KPHN)</item>
+        <item> Turbhe(TUH)</item>
+        <item>Sanpada(SNCR)</item>
+        <item>Vashi(VSH)</item>
+        <item>Juinagar(JNJ)</item>
+        <item>Neral(NRL)</item>
+        <item>Seawoods Darave(SWDV) </item>
+        <item>Belapur CBD(BEPR)</item>
+        <item>Kharghar(KHAG)()</item>
+        <item>Mansarovar(MANR)</item>
+        <item>Khandeshwar(KNDS)</item>
+        <item>Panvel(PNVL)</item>
+    </string-array>
+
+    <string-array name="fifthstation">
+        <item>Vasai Road(BSR)</item>
+        <item>Juchandra(JCNR)</item>
+        <item>Kaman Road(KARD)</item>
+        <item>Kharbao(KHBV)</item>
+        <item>Bhiwandi Road(BIRD)</item>
+        <item>Kopar(KOPR)</item>
+        <item>Diva Junction(DIVA)</item>
+        <item>Dativali(DTVL)</item>
+        <item>Nilaje(NIIJ)</item>
+        <item>Taloja(TPND)</item>
+        <item>Navade Road(NVRD)</item>
+        <item>Kalamboli(KLMC)</item>
+        <item>Panvel(PNVL)</item>
+        <item>Somtane(SMNE)</item>
+        <item>Rasayani(RSYI)</item>
+        <item>Apta(APTA)</item>
+        <item>Jite(JITE)</item>
+        <item>Hamrapur(HMRR)</item>
+        <item>Pen(PEN)</item>
+        <item>Kasu(KASU)</item>
+        <item>Nagothane(NGTN)</item>
+        <item>Nidi(NIDI)</item>
+        <item>Roha(ROHA)</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradiant"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:id="@+id/back"
+    tools:context="cityxpress.cbt.com.cityxpress.activitys.activity.AddEventActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/addevent_eventname_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_event"
+                    android:drawablePadding="10dp"
+                    android:hint="Enter Event Name"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/addevent_organizer_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_organizer"
+                    android:drawablePadding="10dp"
+                    android:hint="Event Organizer"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/addevent_venue_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_placement"
+                    android:drawablePadding="10dp"
+                    android:hint="Event Venue"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/addevent_contact_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_phone"
+                    android:drawablePadding="10dp"
+                    android:hint="Event Mobile No"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <EditText
+                android:id="@+id/addevent_pickdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_date_range_black_24dp"
+                android:drawablePadding="10dp"
+                android:hint="Event Date"
+                android:focusableInTouchMode="false"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/addevent_picktime"
+                android:layout_width="match_parent"
+                android:focusableInTouchMode="false"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_time_black_24dp"
+                android:drawablePadding="10dp"
+                android:hint="Event Time"
+
+                android:singleLine="true" />
+
+            <ImageView
+                android:id="@+id/addevent_imglogo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/addevent_logo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="13dp"
+                android:drawableLeft="@drawable/ic_blogo"
+                android:drawablePadding="10dp"
+                android:hint="Choose Event Logo"
+                android:singleLine="true"
+                android:textSize="17dp" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/addevent_charges"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_rupee"
+                    android:drawablePadding="10dp"
+                    android:hint="Event Charges "
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/addevent_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_description"
+                    android:drawablePadding="10dp"
+                    android:hint="Event Description"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/addevent_addevent_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_background"
+                android:text="Add Event"
+                android:textSize="15dp"
+                android:textColor="@color/button_text_color" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
